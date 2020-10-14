@@ -1,0 +1,242 @@
+/*! purgecss start ignore */
+
+@tailwind base;
+
+@tailwind components;
+/*! purgecss end ignore */
+
+@tailwind utilities;
+body {
+    overflow-x: hidden;
+}
+
+/* font sizes */
+
+.font-14{
+    font-size: 14px;
+}
+
+.font-18 {
+    font-size: 18px;
+}
+
+.font-20 {
+    font-size: 20px;
+}
+
+.font-22 {
+    font-size: 22px;
+}
+
+.font-24 {
+    font-size: 24px;
+}
+
+.font-25 {
+    font-size: 25px;
+}
+
+.font-27 {
+    font-size: 27px;
+}
+
+.font-32 {
+    font-size: 32px;
+}
+
+.font-34 {
+    font-size: 34px;
+}
+
+.font-38 {
+    font-size: 38px;
+}
+
+.font-40 {
+    font-size: 40px;
+}
+
+.font-43 {
+    font-size: 43px;
+}
+
+.font-54 {
+    font-size: 54px;
+}
+
+.font-58 {
+    font-size: 58px;
+}
+
+.font-64{
+    font-size: 64px;
+}
+
+.font-80 {
+    font-size: 80px;
+}
+
+.container{
+    @apply mx-auto;
+    max-width: 1480px;
+}
+
+.checkbox::before {
+    content: url("../images/ic_checkbox.png");
+    display: inline-block;
+    margin-right: 10px;
+    width: 30px;
+    height: 30px;
+    @apply my-auto;
+}
+
+/* .form-input {
+    @apply appearance-none block w-full bg-second border-primary text-lg rounded-none border text-black-1 py-3 px-4 uppercase font-nexa-light;
+}
+
+.form-input::placeholder {
+    @apply text-black
+} */
+
+.accordion {
+    -webkit-box-shadow: 0px 13px 23px -13px rgba(0, 0, 0, 0.5);
+    background-color: transparent;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.accordion-title {
+    text-align: left;
+    position: relative;
+    z-index: 2000;
+    /* transition: all .2s ease-in; */
+}
+
+.accordion-title-text {
+    /* margin-left: 10px; */
+}
+
+.accordion-title:hover {
+    cursor: pointer;
+    /* background-color: rgba(0, 0, 0, .5); */
+}
+
+.accordion-title:active {
+    /* background-color: rgba(0, 0, 0, .55); */
+}
+
+.accordion-content {
+    @apply text-base relative hidden;
+    /* height: 10px; */
+    z-index: 1000;
+    /* margin-top: -10px; */
+    text-align: left;
+    /* transition: all 200ms cubic-bezier(0.600, -0.280, 0.735, 0.045); */
+}
+
+.content-open {
+    @apply block;
+    margin-top: 0px;
+    /* height: 200px; */
+    /* transition: all 350ms cubic-bezier(0.080, 1.090, 0.320, 1.275); */
+}
+
+.accordion-content-text {
+    @apply p-10;
+    visibility: hidden;
+    opacity: 0;
+    overflow: auto;
+    /* transition: all .2s ease-in; */
+}
+
+.content-text-open {
+    visibility: visible;
+    opacity: 1;
+    /* transition: all .8s ease-in; */
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.fa-angle-down {
+    font-size: 20px;
+    color: rgba(255, 255, 255, .5);
+    transition: all .6s cubic-bezier(0.080, 1.090, 0.320, 1.275);
+}
+
+.fa-rotate-180 {
+    color: rgba(255, 255, 255, 1);
+}
+
+.arrow-wrapper {
+    position: absolute;
+    margin-left: 375px;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+.fade-in {
+    animation: fadeIn 2s;
+}
+
+.logo {
+    width: 254px;
+    height: 54px;
+    max-width: 254px !important;
+}
+
+.button-green {
+    @apply my-auto py-2 bg-green text-black-1 text-2xl uppercase shadow-md;
+}
+
+.button-yellow {
+    @apply my-auto py-3 bg-yellow text-red text-2xl uppercase shadow-md;
+}
+
+.carousel-open:checked+.carousel-item {
+    /* position: static; */
+    opacity: 100;
+}
+
+.carousel-item {
+    -webkit-transition: opacity 0.6s ease-out;
+    transition: opacity 0.6s ease-out;
+    margin-bottom: 17px;
+}
+
+#carousel-1:checked~.control-1, #carousel-2:checked~.control-2, #carousel-3:checked~.control-3 {
+    /* display: block; */
+    display: flex;
+}
+
+.carousel-indicators {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 2%;
+    left: 0;
+    right: 0;
+    text-align: center;
+    z-index: 10;
+}
+
+#carousel-1:checked~.control-1~.carousel-indicators li:nth-child(1) .carousel-bullet, #carousel-2:checked~.control-2~.carousel-indicators li:nth-child(2) .carousel-bullet, #carousel-3:checked~.control-3~.carousel-indicators li:nth-child(3) .carousel-bullet {
+    color: #2b6cb0;
+    /*Set to match the Tailwind colour you want the active one to be */
+}
+
+.carousel-inner{
+    /* background-image: url(../images/testimonials/img_bg.png); */
+    /* background-repeat: no-repeat; */
+    height: 720px;
+    width: 640px;;
+}

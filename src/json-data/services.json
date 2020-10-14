@@ -1,0 +1,66 @@
+[
+    { 
+        "title"         : "Press Releases",
+        "image"         : "/files/images/services/s1.png",
+        "price"         : 100,
+        "content"   : "We’ll regularly write up press releases (news, tips, insights etc) and send out to journalists - in the bid of getting published pieces (from published news articles, line ups and tips / insight).",
+        "category"      : "PR",
+        "ppr"           : true
+    },
+    { 
+        "title"         : "Reviews",
+        "image"         : "/files/images/services/s2.png",
+        "price"         : 100,
+        "content"   : "We’ll pitch you for reviews, and present you with opportunities. For the opportunities you want to take up, we’ll manage booking the journalist in and getting the review published. This is a pay per result service (upon publishing).",
+        "category"      : "PR",
+        "ppr"           : true
+    },
+    { 
+        "title"         : "Comment Piece",
+        "image"         : "/files/images/services/s3.png",
+        "price"         : 100,
+        "content"   : "(Per Result) We’ll pitch you for comment pieces, and if you want the opportunity we’ll manage getting the comment from you and getting the comment published (this can also includes interviews). This is a pay per result service (upon publishing).",
+        "category"      : "PR",
+        "ppr"           : true
+    },
+    { 
+        "title"         : "Influencer Endorsement",
+        "image"         : "/files/images/services/s4.png",
+        "price"         : 100,
+        "content"   : "We’ll reach out to our long list of influencer buddies and invite them to try your service(s) or product(s). We’ll present you with the opportunities and for the ones you want to take up, we’ll manage getting your endorsement published. This is a pay per result service (upon publishing).This is a pay per result service – so you can decide which influencers to accept and what you’d like them to do.",
+        "category"      : "PR",
+        "ppr"           : true
+    },
+    { 
+        "title"         : "Test1",
+        "image"         : "/files/images/services/s3.png",
+        "price"         : 90,
+        "content"   : "Test1",
+        "category"      : "TECHNICAL",
+        "ppr"           : false
+    },
+    { 
+        "title"         : "Test2",
+        "image"         : "/files/images/services/s3.png",
+        "price"         : 80,
+        "content"   : "Test2",
+        "category"      : "TECHNICAL",
+        "ppr"           : true
+    },
+    { 
+        "title"         : "Test3",
+        "image"         : "/files/images/services/s3.png",
+        "price"         : 110,
+        "content"   : "Test3",
+        "category"      : "DM",
+        "ppr"           : true
+    },
+    { 
+        "title"         : "Test4",
+        "image"         : "/files/images/services/s3.png",
+        "price"         : 150,
+        "content"   : "Test4",
+        "category"      : "SS",
+        "ppr"           : true
+    }
+]
