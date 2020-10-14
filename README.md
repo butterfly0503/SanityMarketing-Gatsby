@@ -1,5 +1,5 @@
 # Sanity Marketing Gatsby
-![alt text](https://github.com/robert-upwork/SanityMarketing/blob/master/src/images/Screenshot_2020-10-14%Home.jpg?raw=true)
+![alt text](https://github.com/robert-upwork/SanityMarketing/blob/master/src/images/Screenshot_2020-10-14%Home.png?raw=true)
 (https://sanitymarketing.co/)
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/cf1000b7-d0d1-4bb0-a140-f23014a23a5f/deploy-status)](https://app.netlify.com/sites/sanity-marketing/deploys)
